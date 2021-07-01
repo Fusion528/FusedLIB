@@ -1,4 +1,4 @@
-function library:CreateGui(GuiName)
+function CreateGui(GuiName)
     -- Gui to Lua
     -- Version: 3.2
 
@@ -56,7 +56,7 @@ function library:CreateGui(GuiName)
     UIPadding.PaddingTop = UDim.new(0, 1)
 end
 
-function library:AddButton(TextFunction, Callback)
+function AddButton(TextFunction, Callback)
     -- Gui to Lua
     -- Version: 3.2
 
